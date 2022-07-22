@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>New Order</title>
+</head>
+<body>
+    <header class="navbar">
+        <h6 class="h6 text-light">OMS</h6>
+        <a class="btn btn2" id="cancel" href="/html/manager.html">Cancel Order</a>
+    </header>
+    <main class="main">
+        <div class="" id="container">
+            <form class="" id="newOrder" name="newOrder">
+                <div>
+                    <input id="submit" class="btn btn3" type="submit" name="submit">
+                </div>
+                <div class="col-auto">
+                <label for="submit"> <font color="white"><b>Product Name</b></font></label>
+                    <input name="name0" Id = "name" class="form-control" type="text" placeholder="Product Name" required>
+                    <label for="submit"> <font color="white"><b>Price</b></font></label>
+                    <input name="price0" Id = "price" class="form-control"  type="number" placeholder="Price USD" step="0.01" min="0.01" required>
+                    <label for="submit"> <font color="white"><b>Manufacturer</b></font></label>
+                    <input name="manufacturer0" Id = "manufacturer" class="form-control" type="text" placeholder="Manufacturer" required>
+                     
+                </div>
+                
+            </form>
+            <button id="add" class="btn btn3" onclick="addProduct()">Add Another Product to Your Order</button>
+        </div>
+    </main>
+    
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="../js/newOrder.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</html>

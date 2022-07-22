@@ -1,0 +1,31 @@
+2022-07-01 11:01:22.758  INFO 10532 --- [restartedMain] c.o.m.OrderManagementBackendApplication  : Starting OrderManagementBackendApplication using Java 17.0.2 on PCVA-CWMBMF2 with PID 10532 (C:\Users\74183\Final Training Project\Order-Management---Backend\OrderManagementBackend\target\classes started by 1000074183 in C:\Users\74183\Final Training Project\Order-Management---Backend\OrderManagementBackend)
+2022-07-01 11:01:22.759  INFO 10532 --- [restartedMain] c.o.m.OrderManagementBackendApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-01 11:01:22.813  INFO 10532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-01 11:01:22.814  INFO 10532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-01 11:01:23.492  INFO 10532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 11:01:23.556  INFO 10532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2022-07-01 11:01:24.193  INFO 10532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-01 11:01:24.202  INFO 10532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-01 11:01:24.203  INFO 10532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-01 11:01:24.293  INFO 10532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-01 11:01:24.294  INFO 10532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2022-07-01 11:01:24.326  INFO 10532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-01 11:01:24.755  INFO 10532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-01 11:01:24.766  INFO 10532 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/ordermanagement'
+2022-07-01 11:01:24.999  INFO 10532 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 11:01:25.071  INFO 10532 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-01 11:01:25.289  INFO 10532 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-01 11:01:25.451  INFO 10532 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-01 11:01:29.057  INFO 10532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 11:01:29.067  INFO 10532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 11:01:29.553  WARN 10532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-01 11:01:29.888  INFO 10532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-01 11:01:29.987  INFO 10532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-01 11:01:29.997  INFO 10532 --- [restartedMain] c.o.m.OrderManagementBackendApplication  : Started OrderManagementBackendApplication in 7.714 seconds (JVM running for 8.677)
+2022-07-01 11:01:34.203  INFO 10532 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01 11:01:34.204  INFO 10532 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-01 11:01:34.205  INFO 10532 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-01 11:01:36.860  INFO 10532 --- [http-nio-8080-exec-3] c.o.m.controller.OrderController         : WHY?!
+2022-07-01 11:02:02.120  INFO 10532 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 11:02:02.124  INFO 10532 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-01 11:02:02.134  INFO 10532 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
